@@ -6,7 +6,7 @@ const Experience = () => {
   const { experience } = useContext(Context);
 
   return (
-    <div>
+    <div id="experience">
       <h2>Experience</h2>
       <div className="experience-cards">
         {experience.map((items) => {

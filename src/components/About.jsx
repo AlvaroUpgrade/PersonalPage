@@ -9,7 +9,7 @@ const About = () => {
   const { personalData } = useContext(Context);
 
   return (
-    <div className="aboutCard">
+    <div className="aboutCard" id="about">
       <h2>About Me</h2>
       <p> {personalData.aboutMe} </p>
       <a href={personalData.linkedIn} target="_blank" rel="noreferrer">

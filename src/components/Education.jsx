@@ -6,7 +6,7 @@ const Education = () => {
   const { education } = useContext(Context);
   // console.log(education);
   return (
-    <div>
+    <div id="education">
       <h2>Education</h2>
       <div className="education-cards">
         {education.map((items) => {

@@ -6,7 +6,7 @@ const HabilitiesAndLanguages = () => {
   const { habilities, languages } = useContext(Context);
 
   return (
-    <div className="container">
+    <div className="container" id="habilities&languages">
       <div className="container-habilities">
         <h2>Habilities</h2>
         {habilities.map((items) => {

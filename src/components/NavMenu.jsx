@@ -13,16 +13,16 @@ const NavMenu = ({ personalData }) => {
         </h2>
       </div>
       <div className="options">
-        <Link to="test1" spy={true} smooth={true} offset={50} duration={500}>
+        <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
           About Me
         </Link>
-        <Link to="test1" spy={true} smooth={true} offset={50} duration={500}>
+        <Link to="education" spy={true} smooth={true} offset={50} duration={500}>
           Education
         </Link>
-        <Link to="test1" spy={true} smooth={true} offset={50} duration={500}>
+        <Link to="experience" spy={true} smooth={true} offset={50} duration={500}>
           Experience
         </Link>
-        <Link to="test1" spy={true} smooth={true} offset={50} duration={500}>
+        <Link to="habilities&languages" spy={true} smooth={true} offset={50} duration={500}>
           Habilities & Languages
         </Link>
       </div>
