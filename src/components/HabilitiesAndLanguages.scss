@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 70vh;
+
+  .container-habilities {
+    background-color: rgba(0, 0, 0, 0.308);
+    padding: 10px;
+    border-radius: 15px;
+    margin-right: 10px;
+  }
+
+  .container-languages {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+    .container-languages-each {
+      background-color: rgba(0, 0, 0, 0.308);
+      padding: 10px;
+      border-radius: 15px;
+      height: 125px;
+      width: 125px;
+      margin-bottom: 20px;
+
+      h2 {
+        color: rgb(22, 174, 174);
+      }
+    }
+  }
+}

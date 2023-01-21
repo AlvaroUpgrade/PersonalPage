@@ -1,0 +1,38 @@
+$background: #0f0f0f;
+
+html,
+body {
+  background-color: $background;
+  color: white;
+}
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  header {
+    height: 22vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    nav {
+      width: 95%;
+      height: 85%;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #202329;
+    }
+  }
+
+  main {
+    background-color: $background;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+
+    
+  }
+}
