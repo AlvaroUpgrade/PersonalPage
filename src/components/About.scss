@@ -1,17 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
 .aboutCard {
-  width: 530px;
-  height: 60vh;
+  display: flex;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
 
-  h2 {
-    font-size: 40px;
-  }
+  .aboutInfo-box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 
-  p {
-    font-size: 20px;
-  }
+    .aboutInfo-content {
+      display: flex;
+      justify-content: space-evenly;
+      width: 90%;
+      height: 45vh;
 
-  a {
-    font-size: 40px;
-    color: white;
+      .image {
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: contain;
+          border-top-left-radius: 90px;
+          border-bottom-left-radius: 90px;
+        }
+      }
+      .text {
+        width: 50%;
+        h2 {
+          color: white;
+          font-family: "Satisfy", cursive;
+          font-size: 40px;
+          text-shadow: 2px 2px black;
+        }
+        p {
+          font-size: 20px;
+        }
+
+        a {
+          font-size: 40px;
+          color: white;
+        }
+      }
+    }
   }
 }

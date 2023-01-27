@@ -10,14 +10,22 @@ const About = () => {
 
   return (
     <div className="aboutCard" id="about">
-      <h2>About Me</h2>
-      <p> {personalData.aboutMe} </p>
-      <a href={personalData.linkedIn} target="_blank" rel="noreferrer">
-        <FontAwesomeIcon icon={faLinkedin} />
-      </a>
-      {/* <a href="www.linkedin.com/in/alvaro-ruiz-navarro">
-        
-      </a> */}
+      <div className="aboutInfo-box">
+        <div className="aboutInfo-content">
+          <div className="image">
+            <img src={personalData.image} alt="Foto de Perfil" />
+          </div>
+          <div className="text">
+            <h2>
+              {personalData.name} {personalData.lastName}
+            </h2>
+            <p> {personalData.aboutMe} </p>
+            <a href={personalData.linkedIn} target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

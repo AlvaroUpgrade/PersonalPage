@@ -54,18 +54,96 @@ export const CV = {
     "Responsabilidad",
   ],
 
-  volunteer: [
+  technologies: [
     {
-      name: "September Foundation",
-      where: "MIT",
-      description:
-        "The September Foundation is a program by Tony Stark to fund schools and young prodigies in their education. The foundation was named by Stark after a lyric from The Fantasticks song, 'Try to Remember,' which he heard his mother sing and play on the piano before her death.",
+      name: "Java",
+      level: 3,
+      description: "",
+      image: "",
     },
     {
-      name: "Damage Control",
-      where: "U.S.A.",
-      description:
-        "The United States Department of Damage Control, occasionally known as the DODC, is a department of the United States of America. Initially a subsidiary of S.H.I.E.L.D., Damage Control was an organization specializing in post-battle clean-up. Following the Battle of New York, Damage Control was made into an executive branch of the United States government, and in a joint venture with Stark Industries, was tasked with acquiring alien and other dangerous artifacts along with cleaning up damages caused by enhanced individuals.",
+      name: "Spring",
+      level: 3,
+      description: "",
+      image: "",
+    },
+    {
+      name: "MySQL",
+      level: 3,
+      description: "",
+      image: "",
+    },
+    {
+      name: "Git",
+      level: 3,
+      description: "",
+      image: "",
+    },
+    {
+      name: "JavaScript",
+      level: 3,
+      description: "",
+      image: "",
+    },
+    {
+      name: "HTML",
+      level: 3,
+      description: "",
+      image: "",
+    },
+    {
+      name: "CSS",
+      level: 3,
+      description: "",
+      image: "",
+    },
+    {
+      name: "SASS",
+      level: 3,
+      description: "",
+      image: "",
+    },
+    {
+      name: "JavaScript",
+      level: 3,
+      description: "",
+      image: "",
+    },
+    {
+      name: "MongoDB",
+      level: 3,
+      description: "",
+      image: "",
+    },
+    {
+      name: "Node",
+      level: 3,
+      description: "",
+      image: "",
+    },
+    {
+      name: "React",
+      level: 3,
+      description: "",
+      image: "",
+    },
+    {
+      name: "Angular",
+      level: 3,
+      description: "",
+      image: "",
+    },
+    {
+      name: "PHP",
+      level: 3,
+      description: "",
+      image: "",
+    },
+    {
+      name: "Symfony",
+      level: 3,
+      description: "",
+      image: "",
     },
   ],
 };

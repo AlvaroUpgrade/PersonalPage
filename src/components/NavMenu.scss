@@ -4,40 +4,33 @@
   align-items: center;
   height: 100%;
 
-  .imageAndname {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-
-    img {
-      width: 100px;
-      margin-top: 10px;
-      margin-left: 30px;
-      border-radius: 90px;
-      filter: drop-shadow(3px 3px 5px black);
-    }
-
-    h2 {
-      color: white;
-      text-shadow: 2px 2px black;
-      margin-left: 30px;
-    }
-  }
-
   .options {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-right: 30px;
+    margin-right: 20px;
     text-align: center;
-    width: 50%;
+    width: 60%;
 
-    button {
-      color: white;
-      font-size: 20px;
-      border: none;
-      background-color: transparent;
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      list-style: none;
+
+      li {
+        color: white;
+        font-size: 20px;
+        padding-bottom: 10px;
+        border-bottom: 3px solid grey;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+
+      li:hover {
+        border-bottom: 3px solid rgb(0, 166, 255);
+        transition: 1s;
+      }
     }
   }
 }
