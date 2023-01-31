@@ -12,7 +12,7 @@ const NavMenu = () => {
             </Link>
           </li>
           <li>
-            <Link to="about" spy={true} smooth={true} duration={1500}>
+            <Link to="technologies" spy={true} smooth={true} duration={1500}>
               Technologies
             </Link>
           </li>

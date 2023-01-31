@@ -3,6 +3,7 @@ import "./App.scss";
 
 import NavMenu from "./components/NavMenu";
 import About from "./components/About";
+import Technologies from "./components/Technologies";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
 import HabilitiesAndLanguages from "./components/HabilitiesAndLanguages";
@@ -10,7 +11,14 @@ import HabilitiesAndLanguages from "./components/HabilitiesAndLanguages";
 import { CV } from "./CV/CV";
 import { Context } from "./shared/Contexts/Context";
 
-const { personalData, education, experience, languages, habilities } = CV;
+const {
+  personalData,
+  education,
+  experience,
+  languages,
+  habilities,
+  technologies,
+} = CV;
 
 function App() {
   const [article, setArticle] = useState("About");
@@ -25,6 +33,7 @@ function App() {
         experience,
         languages,
         habilities,
+        technologies,
       }}
     >
       <div className="App">
@@ -35,6 +44,7 @@ function App() {
         </header>
         <main>
           <About></About>
+          <Technologies></Technologies>
           <Education></Education>
           <Experience></Experience>
           <HabilitiesAndLanguages></HabilitiesAndLanguages>

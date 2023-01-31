@@ -1,0 +1,27 @@
+.technologies {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  .technologies-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    // border: 2px solid blue;
+
+    .technologies-cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    //   border: 2px solid green;
+
+      .technologies-cards-eachCard {
+        height: 25vh;
+        width: 25vw;
+        margin: 1em;
+
+        border: 2px solid red;
+      }
+    }
+  }
+}

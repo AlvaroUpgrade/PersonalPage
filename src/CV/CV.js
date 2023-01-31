@@ -77,25 +77,19 @@ export const CV = {
       name: "Git",
       level: 3,
       description: "",
-      image: "",
-    },
-    {
-      name: "JavaScript",
-      level: 3,
-      description: "",
-      image: "",
+      image: "../assets/icons/github.png",
     },
     {
       name: "HTML",
       level: 3,
       description: "",
-      image: "",
+      image: "../assets/icons/html.png",
     },
     {
       name: "CSS",
       level: 3,
       description: "",
-      image: "",
+      image: "../assets/icons/css.png",
     },
     {
       name: "SASS",
@@ -107,7 +101,7 @@ export const CV = {
       name: "JavaScript",
       level: 3,
       description: "",
-      image: "",
+      image: "../assets/icons/javascript.png",
     },
     {
       name: "MongoDB",
@@ -119,13 +113,13 @@ export const CV = {
       name: "Node",
       level: 3,
       description: "",
-      image: "",
+      image: "../assets/icons/node.png",
     },
     {
       name: "React",
       level: 3,
       description: "",
-      image: "",
+      image: "../assets/icons/react.png",
     },
     {
       name: "Angular",
