@@ -59,19 +59,19 @@ export const CV = {
       name: "Java",
       level: 3,
       description: "",
-      image: "",
+      image: "../assets/icons/java.png",
     },
     {
       name: "Spring",
       level: 3,
       description: "",
-      image: "",
+      image: "../assets/icons/spring.png",
     },
     {
       name: "MySQL",
       level: 3,
       description: "",
-      image: "",
+      image: "../assets/icons/mysql.png",
     },
     {
       name: "Git",
@@ -95,7 +95,7 @@ export const CV = {
       name: "SASS",
       level: 3,
       description: "",
-      image: "",
+      image: "../assets/icons/sass.png",
     },
     {
       name: "JavaScript",
@@ -107,7 +107,7 @@ export const CV = {
       name: "MongoDB",
       level: 3,
       description: "",
-      image: "",
+      image: "../assets/icons/mongodb.png",
     },
     {
       name: "Node",
@@ -125,19 +125,19 @@ export const CV = {
       name: "Angular",
       level: 3,
       description: "",
-      image: "",
+      image: "../assets/icons/angular.png",
     },
     {
       name: "PHP",
       level: 3,
       description: "",
-      image: "",
+      image: "../assets/icons/php.png",
     },
     {
       name: "Symfony",
       level: 3,
       description: "",
-      image: "",
+      image: "../assets/icons/symfony.png",
     },
   ],
 };

@@ -12,8 +12,6 @@ const Technologies = () => {
           {technologies.map((items) => {
             return (
               <div key={items.name} className="technologies-cards-eachCard">
-                <h3>{items.name}</h3>
-                <h3>{items.level}</h3>
                 <img src={items.image} alt={items.name}></img>
               </div>
             );

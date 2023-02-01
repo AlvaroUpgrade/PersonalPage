@@ -13,14 +13,20 @@
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-    //   border: 2px solid green;
+      //   border: 2px solid green;
 
       .technologies-cards-eachCard {
-        height: 25vh;
-        width: 25vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+        width: 20vw;
         margin: 1em;
-
         border: 2px solid red;
+
+        img {
+          height: 12vh;
+        }
       }
     }
   }
