@@ -12,7 +12,12 @@ const Technologies = () => {
           {technologies.map((items) => {
             return (
               <div key={items.name} className="technologies-cards-eachCard">
-                <img src={items.image} alt={items.name}></img>
+                <div className="front">
+                  <img src={items.image} alt={items.name}></img>
+                </div>
+                <div className="back">
+                  <h2>{items.name}</h2>
+                </div>
               </div>
             );
           })}

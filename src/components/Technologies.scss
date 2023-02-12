@@ -19,13 +19,42 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 30vh;
+        height: 25vh;
         width: 20vw;
         margin: 1em;
-        border: 2px solid red;
+        background-color: rgba(240, 255, 255, 0.11);
+        border-top: 2px solid rgba(255, 255, 255, 0.2);
+        border-left: 2px solid rgba(255, 255, 255, 0.2);
+        border-radius: 20px;
 
-        img {
-          height: 12vh;
+        .front {
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 30vh;
+          width: 20vw;
+
+          img {
+            height: 15vh;
+          }
+        }
+
+        .back {
+          opacity: 0;
+          z-index: 2;
+        }
+      }
+
+      .technologies-cards-eachCard:hover {
+        .front {
+          transition: 0.5s;
+          filter: blur(15px);
+        }
+        .back {
+          transition: 0.5s;
+          opacity: 1;
+          cursor: default;
         }
       }
     }
